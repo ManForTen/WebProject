@@ -370,7 +370,7 @@
   }
   
   h2 {
-      font-size: 60px;
+      font-size: 30px;
       max-width: 700px;
       text-align: justify;
       margin-left: 12%;
@@ -378,8 +378,6 @@
 
   .navbar {
    background-color: rgba(128, 128, 128, 0.8); /* Полупрозрачный черный цвет фона */
-   backdrop-filter: blur(100px); /* Размытие для эффекта стекломорфизма */
-   box-shadow: 0px 4px 6px rgba(108, 92, 92, 0.1);
 }
 
 .navbar-brand {
@@ -412,19 +410,19 @@
   .start-text{
       text-align: left;
       margin-left: 75px;
-      font-size: 75px;
+      font-size: 35px;
   }
   
   #next-start-text{
       text-align: justify;
       margin-left: 75px;
-      font-size: 60px;
+      font-size: 35px;
   }
 
   #next-start-text_2{
    text-align: center;
    margin-left: 75px;
-   font-size: 60px;
+   font-size: 35px;
 }
   
   .main-text-head{
@@ -726,6 +724,16 @@
   #scrollTopBtn:hover {
       background-color: #fff; /* Белый фон при наведении */
       color: #000; /* Черный текст при наведении */
+  }
+
+  .bi{
+   width: 250px;
+   height: 250px;
+  }
+
+  .text-2{
+   font-size: 45px;
+
   }
 }
 
